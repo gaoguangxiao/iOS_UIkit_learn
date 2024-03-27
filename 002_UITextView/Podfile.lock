@@ -1,0 +1,16 @@
+PODS:
+  - GGXSwiftExtension (0.5.2)
+
+DEPENDENCIES:
+  - GGXSwiftExtension (from `~/Documents/GitHub/ggxswiftexten`)
+
+EXTERNAL SOURCES:
+  GGXSwiftExtension:
+    :path: "~/Documents/GitHub/ggxswiftexten"
+
+SPEC CHECKSUMS:
+  GGXSwiftExtension: df0751956084ed75ee438b31ed8e50368797f8e6
+
+PODFILE CHECKSUM: 3cdd29eddf49b223abcfad2f32ef7337bd442045
+
+COCOAPODS: 1.15.0

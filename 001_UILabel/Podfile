@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target '001_UILabel' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'ZKBaseSwiftProject'
+  
+  pod 'GGXSwiftExtension' , :path => '~/Documents/GitHub/ggxswiftexten'  #工具扩展类
+  # Pods for 001_UILabel
+  
+end

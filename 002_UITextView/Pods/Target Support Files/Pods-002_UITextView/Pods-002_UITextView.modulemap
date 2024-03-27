@@ -1,0 +1,6 @@
+framework module Pods_002_UITextView {
+  umbrella header "Pods-002_UITextView-umbrella.h"
+
+  export *
+  module * { export * }
+}
