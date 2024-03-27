@@ -1,0 +1,16 @@
+PODS:
+  - GGXSwiftExtension (0.5.2)
+
+DEPENDENCIES:
+  - GGXSwiftExtension
+
+SPEC REPOS:
+  trunk:
+    - GGXSwiftExtension
+
+SPEC CHECKSUMS:
+  GGXSwiftExtension: df0751956084ed75ee438b31ed8e50368797f8e6
+
+PODFILE CHECKSUM: 032efdb8043b0523457d9dce1487ce7a601c4924
+
+COCOAPODS: 1.15.0
