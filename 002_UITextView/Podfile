@@ -4,6 +4,8 @@
 target '002_UITextView' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+  pod 'ZKBaseSwiftProject'
+  
   pod 'GGXSwiftExtension' , :path => '~/Documents/GitHub/ggxswiftexten'  #工具扩展类
   # Pods for 002_UITextView
 

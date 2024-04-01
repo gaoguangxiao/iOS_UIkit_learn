@@ -7,10 +7,41 @@
 
 import UIKit
 
+import SwiftUI
+
+//struct LaunchApp {
+//    
+//    
+//}
+
+//@main
+//struct LaunchApp {
+//    static func main() {
+//        if #available(iOS 15.0, *) {
+//            AppNew.main()
+//        } else {
+////            UIApplicationMain(
+////                CommandLine.argc,
+////                CommandLine.unsafeArgv,
+////                nil,
+////                NSStringFromClass(AppDelegate.self))
+//        }
+//    }
+//}
+
+
 @main
+@available(iOS 14.0, *)
+struct LaunchApp: App {
+    var body: some Scene {
+        WindowGroup {
+            SwiftUIView_text()
+        }
+    }
+}
+
+//@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
